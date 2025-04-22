@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "trailingSlash": true,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/next"
+      }
+    ]
+  }
+  
