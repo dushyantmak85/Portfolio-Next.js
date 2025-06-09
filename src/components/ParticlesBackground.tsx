@@ -113,9 +113,9 @@ export default function ParticlesBackground({ className = "" }) {
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      className={`fixed top-0 left-0 w-screen h-[100vh] z-0 pointer-events-none ${className}`}
-    />
+   <canvas
+  ref={canvasRef}
+  className={`fixed top-0 left-0 w-screen h-[100vh] z-[-10] pointer-events-none ${className}`}
+/>
   );
 }

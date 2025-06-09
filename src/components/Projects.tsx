@@ -53,12 +53,12 @@ const projects: Project[] = [
     repo: "https://github.com/dushyantmak85/Build-My-Own-API",
   },
   {
-    title: "Simon Game",
-    tech: "Html, CSS, JavaScript",
+    title: "Savages",
+    tech: "Unity3D, C#",
     description:
-      "A classic memory game where players repeat a sequence of colors and sounds. Built with HTML, CSS, and JavaScript.",
-    image: "/simon.png",
-    repo: "https://github.com/dushyantmak85/Simon-Game",
+      "A 3D zombie survival game developed using Unity, featuring immersive environments, dynamic enemy AI, and intense survival mechanics.",
+    image: "/Savages.png",
+    repo: "https://github.com/dushyantmak85/Savages",
   },
   {
     title: "Meeting Scheduler App",
