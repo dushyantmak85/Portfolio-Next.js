@@ -82,7 +82,7 @@ export default function Home() {
             className={`flex flex-wrap justify-center gap-3 mt-10 transition-all duration-700 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
           >
-            {['Unity', 'VR', 'C#', 'Next.js'].map((tech, index) => (
+            {['Unity', 'VR', 'C#', 'React.js'].map((tech, index) => (
               <span
                 key={tech}
                 className="px-4 py-1.5 bg-[#00ADB5]/30 rounded-full text-sm border border-[#00ADB5]/50 text-[#EEEEEE] backdrop-blur-md shadow-inner"
