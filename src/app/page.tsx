@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import dynamic from 'next/dynamic';
 const Robot3D = dynamic(() => import('@/components/Robot3D'), { ssr: false });
+import TypingText from "@/components/TypingText";
 
 
 // Sections
@@ -56,9 +57,9 @@ export default function Home() {
               }`}
           >
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#EEEEEE] via-[#00ADB5] to-[#EEEEEE] animate-gradient-x">
-              Hey, I'm Dushyant
+             Hey, I'm <TypingText />
             </span>
-            <Robot3D />
+            
           </h1>
 
           {/* One-liner */}

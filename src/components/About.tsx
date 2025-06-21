@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import Robot3D from "./Robot3D";
 
 export default function About() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -116,10 +117,10 @@ export default function About() {
           <div className="space-y-12">
             {[
               {
-                company: "Google Developer Student Club",
-                role: "Lead Developer",
-                duration: "September 2024 – March 2025",
-                description: "Built three apps: two immersive Unity 3D experiences and a feature-rich cross-platform React Native mobile app."
+                company: "ETailed Digital Services",
+                role: "Backend Developer",
+                duration: "June 2025 – September 2025",
+                description: "Developed and maintained backend systems for a Saas platform, focusing on performance optimization and scalability. Collaborated with frontend teams to integrate APIs and enhance user experience."
               }
             ].map((exp, idx) => (
               <motion.div
