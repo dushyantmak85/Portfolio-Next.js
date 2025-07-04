@@ -25,7 +25,7 @@ const projects: Project[] = [
     tech: "Unity3D, C#",
     description:
       "Made a 3D game in Unity where players cook and deliver food,managing orders and time-based challenges.",
-    image: "/kitchenbuddy.png",
+    image: "/kitchenbuddy1.png",
     repo: "https://github.com/dushyantmak85/KitchenBuddy",
   },
   {
@@ -36,14 +36,7 @@ const projects: Project[] = [
     image: "/anantya.png",
     repo: "https://github.com/dushyantmak85/Anantya",
   },
-  {
-    title: "3D Environment Generator",
-    tech: "Unity3D, C#",
-    description:
-      "A Unity application that procedurally generates customizable 3D environments for designing diverse virtual spaces.",
-    image: "/env-generator.jpg",
-    repo: "https://github.com/TheNectarStudios/GIT-LFS-Creator123",
-  },
+  
   {
     title: " BlogX",
     tech: " Node.js, Express, Axios",
@@ -60,14 +53,7 @@ const projects: Project[] = [
     image: "/Savages.png",
     repo: "https://github.com/dushyantmak85/Savages",
   },
-  {
-    title: "Meeting Scheduler App",
-    tech: "React Native",
-    description:
-      "A mobile app to streamline meeting scheduling and collaboration. Real-time notifications, calendar sync, and slick UI included.",
-    image: "/rn.jpg",
-    repo: "https://github.com/TheNectarStudios/REPAPP",
-  },
+  
 ];
 
 function ProjectCard({ project, setSelectedImage, isInView, index }: ProjectCardProps) {

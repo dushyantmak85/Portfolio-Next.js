@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import Robot3D from "./Robot3D";
 
 export default function About() {
   const [isLoaded, setIsLoaded] = useState(false);

@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import dynamic from 'next/dynamic';
-const Robot3D = dynamic(() => import('@/components/Robot3D'), { ssr: false });
 import TypingText from "@/components/TypingText";
 
 
